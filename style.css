@@ -1,0 +1,134 @@
+* {
+ font-family: Arial;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	height: 200px;
+	background-color: #07182a;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	width: 1050px;
+}
+.topo {
+	width: 1050px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.topo .titulo {
+	font-size: 50px;
+	color: #FFCC00;
+}
+
+.topo .subtitulo {
+	font-size: 20px;
+	color: #FFF;
+	font-style: italic;
+}
+.topo img {
+	width: 75px;
+	height: 75px;
+	margin-top: 10px;
+}
+.images {
+	background-color: #FFF;
+	margin: auto;
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	width: 1050px;
+}
+.imagens1 img {
+	width: 305px;
+	height: 305px;
+	margin-left: 20px;
+	padding-top: 112px;
+}
+.imagens2 img {
+	width: 450px;
+	height: 450px;
+	border-radius: 225px;
+	padding-top: 5px;
+	box-shadow: 0px 5px 3px #333;
+}
+.imagens3 img {
+	width: 320px;
+	height: 305px;
+	padding-top: 112px;
+}
+.timeline {
+	margin-top: 20px;
+	margin-left: 150px;
+	display: flex;
+	flex-direction: column;
+	width: 1050px;
+}
+.topotimeline .titulo {
+	text-shadow: 2px 2px 3px #000;
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	color: #FFCC00;
+}
+
+.topotimeline .subtitulo {
+	display: flex;
+	justify-content: center;
+	font-size: 17px;
+	color: #000;
+}
+.conteudo {
+	padding-bottom: 20px;
+	margin: auto;
+	width: 1050px;
+	display: flex;
+}
+div .contesq .texto1, .texto2, .texto3, .texto4, .texto5, .texto6 {
+	text-align: right;
+	float: right;
+	background-color: #999;
+	margin-bottom: 22px;
+	margin-right: 3px;
+	width: 525px;
+}
+div .contdir .texto7, .texto8, .texto9, .texto10, .texto11, .texto12 {
+	float: left;
+	background-color: #FFCC00;
+	padding-top: 32px;
+	margin-bottom: 4px;
+	margin-left: 3px;
+	width: 525px;
+}
+div .rodape {
+	margin: auto;
+	padding-top: 10px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 70px;
+}
+div .textrodape {
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 70px;
+	background-color: #07182a;
+	color: #FFF;
+}
+
